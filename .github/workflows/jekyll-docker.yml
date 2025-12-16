@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang"en">
+<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Navbar</title>
+		<style>
+		
+body {
+backround-color: #f4f4f9;
+display: flex;
+justify-content:center;
+align-items: center;
+marigin: 0;
+}
+
+.profile-container{
+backround-color: #ffffff;
+padding: 50px;
+border-radius: 12px;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+width 300px;
+text-align: letf;
+}
+
+
+h4{
+color: #333;
+text-align: center;
+font-size: 1.5em;
+border-bottom: 2px solid #007bff;
+margin-bottom: 20px;
+padding-bottom: 10px;
+}
+
+a{
+display: inline-block;
+background-color: #007bff;
+color:white;
+padding: 10px 20px;
+border-radius: 5px;
+margin-top: 10px;
+text-decoration: none;
+}
+
+a:hover {
+background-color: #0056b3;
+}
+
+.info-label{
+width: 100px;
+color: #333;
+font-weirght: bold;
+display: inline-block;
+}
+
+img{
+width: 120px;
+height: 120px;
+border-radius: 50%;
+siaplay: block;
+object-fit: cover;
+}
+
+#profil-info{
+line-height: 1.8;
+color: #555;
+margin-bottom: 10px;
+}
+
+</style>
+<body>
+<div class ="profile-container">
+<center>
+<img src="gambar1.jpg" width=150 heigt=150/>
+</center>
+<h4>Profilku</h4>
+<div id="profil-info">
+<span class="info-label">Nama </span>: Muhammad Febrian Ardani <br>
+<span class="info-label">Alamat</span>: Tajur <br>
+<span class="info-label">Rayon</span>: Tajur 4 <br>
+<span class="info-label">Jurusan</span>: PPLG <br>
+</div>
+  <center>
+<a href="https://jurnalku.smkwikrama.sch.id/explore/12511178">Sertifikat</a>
+<a href="file:///C:/Latihan%20cart/index.html">Kembali</a>
+
+</div>
+</center>
+</body>
+</html>
