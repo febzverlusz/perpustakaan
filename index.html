@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data pengunjung</title>
+	<style>
+	
+	.navbar {
+			background-color: #8A2BE2;
+			display: flex ;
+			justify-content: space-between;
+			align-items: center;
+			padding: 10px 25px;
+		}
+		.logo {
+			display: flex;
+			align-items: center;
+			gap: 10px
+		}
+		.logo img {
+			width: 70px;
+		}
+		.text-logo {
+			display: flex;
+			flex-direction: column;
+			line-height: 1.1;
+		}
+		.judul {
+			font-weight: bold;
+			font-size: 18px;
+		}
+		.sub-judul {
+			font-size: 14px;
+			color: gray;
+		}
+		.menu {
+			list-style: none;
+			display: flex;
+			gap: 20px;
+		}
+		.menu a {
+			color: black;
+			text-decoration: none;
+		}
+		
+		.menu li a {
+		color: #ddd;
+		text-decoration: none;
+		font-size: 16px;
+		transition: 0.3s;
+		
+		background-color: white;
+		color: #007bff;
+		padding: 10px 20px;
+		font-weight: bold;
+		border-radius: 5px;
+		}
+		.menu li a:hover {
+		background-color: grey;
+		color: white;
+		}
+
+	.card {
+	width: 150px;
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	overflow: hidde;
+	text-align: center;
+	margin: 5px;
+	}
+	
+	.card-img {
+		width: 100%;
+		heigth: 100px%;
+		object-fit: 10px;
+		
+	}
+	
+	.card-title {
+		font-size: 18px;
+		margin: 10 px 0 5px;
+	}
+	
+	.card-subtitle {
+		font-size: 10px;
+		margin: 10 px 0 5px;
+		color: #555;
+	}
+	
+	
+
+	button {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+  margin: 7px;
+}
+
+	.container {
+		display: flex;
+		flex-warp: warap;
+		gap: 20px;
+	
+	justify-content: center;
+	padding: 100px;
+	
+	}
+	</style>
+</head>
+<body>
+
+<nav class="navbar">
+	<div class="logo">
+		<img src="wikrama-logo.png" alt="">
+		<div class="text-logo">
+			<div class="judul">Perpustakaan</div>
+			<div class="subjudul">Wikrama</div>
+		</div>
+	</div>
+	<ul class="menu">
+		<li><a href="file:///C:/KOMPONEN/Nakbar/contoh%204.html#">Beranda</a></li>
+		<li><a href="#">Kontak</a></li>
+		<li><a href="#">Data pengunjung</a></li>
+		<li><a href="file:///C:/Users/Dani/OneDrive/LatihanProfileDanCSS/LatihanProfile.html">Profile</a></li>
+	</ul>
+</nav>
+
+    <h3>Daftar pengunjung</h3>
+<div class="container">
+<div class="card">
+	<img class="card-img" src="asets/img/gambar1.jpg">
+	<h3>
+	M. febrian
+	</h3>
+	<p>
+	 @febzverlusz
+	 </p>
+	 <button id ="btn">
+	 Kunjungi profil
+	 </button>
+</div>
+<div class="card">
+	<img class="card-img" src="asets/img/gambar2.jpg">
+	<h3>
+	Rizky aditiya
+	</h3>
+	<p>
+	 @acil majalengka
+	 </p>
+	 <button id ="btn">
+	 Kunjungi profil
+	 </button>
+	 </div>
+	 <div class="card">
+	<img class="card-img" src="asets/img/gambar3.jpg">
+	<h3>
+	Muhammad Saiq
+	</h3>
+	<p>
+	 @saiqqfuron
+	 </p>
+	 <button id ="btn">
+	 Kunjungi profil
+	 </button>
+	 </div>
+	 </div>
+</body>
+</html>
